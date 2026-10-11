@@ -1,0 +1,14 @@
+# Виртуальное окружение
+venv/
+env/
+
+# Сборка PyInstaller
+build/
+dist/
+*.spec
+
+# Кэш Python и ОС
+__pycache__/
+*.pyc
+.DS_Store
+Thumbs.db
