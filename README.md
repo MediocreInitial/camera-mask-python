@@ -21,35 +21,10 @@ An offline, lightweight Python application for real-time face tracking and priva
 
 ---
 
-## 🚀 Quick Start
+## 📥 Download & Launch (Pre-built Version)
 
-### 1. Prerequisites
-Make sure you have Python 3.9+ installed on your system.
+If you don't want to build the project from source, you can download the ready-to-use compiled version:
 
-### 2. Installation
-Clone the repository and install the dependencies:
-
-```bash
-git clone [https://github.com/YOUR_USERNAME/camera-mask-python.git](https://github.com/YOUR_USERNAME/camera-mask-python.git)
-cd camera-mask-python
-pip install -r requirements.txt
-
-3. Model Asset
-
-The face_landmarker.task file is included in the repository. If missing, the app will automatically attempt to download it on the first launch.
-
-4. Running the App
-Bash
-python main.py
-
- Packaging to .exe
-
-To compile the project into a standalone Windows executable:
-
-Activate your virtual environment (if using one).
-
-Run PyInstaller:
-
-Bash
-pyinstaller --onedir --noconfirm --collect-all mediapipe --collect-all cv2 --collect-all opencv-python main.py
-Important: Copy face_landmarker.task into dist/main/ right alongside main.exe.
+1. Go to the release page: [GitHub Releases — WebCam](https://github.com/MediocreInitial/camera-mask-python/releases/tag/WebCam).
+2. Download the application archive and extract it to any convenient folder.
+3. To launch the program, simply open **`main.exe`**!
